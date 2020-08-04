@@ -1,0 +1,142 @@
+body {
+    width:auto;
+    margin: 0 auto;
+}
+
+header {
+    height: 80px;
+    background-color: #4e69ad;
+    margin:0;
+}
+
+#content {
+    height: 435px;
+    padding-left: 55px;
+}
+
+footer {
+    height: 40px;
+    background-color: #bdbfbf;
+    font-family: arial;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+nav {
+    float: right;
+    padding-right: 40px;
+    padding-top: 40px;
+    
+
+}
+#caption{
+    color: #1ec963;
+    font-family: arial;
+    text-align: center;
+    font-weight: bold;
+}
+
+#nav-menu {
+    color: #d9dbda;
+    text-decoration: none;
+    font-family: arial;
+    font-weight: lighter;
+    padding-right: 10px;
+    font-size: 20px;
+    
+}
+
+.nav-menu{
+     color: #d9dbda;
+    text-decoration: none;
+    font-family: arial;
+    font-weight: lighter;
+    padding-right: 10px;
+    font-size: 20px;
+    
+}
+
+#title{
+    font-size: 30px;
+    padding-left: 40px;
+    color: #d9dbda;
+    font-family: arial;
+    font-weight: lighter;
+    
+   
+}
+
+h1 {
+    width: 80%;
+    padding-left: 65px;
+    padding-top: 10px;
+    text-align: left;
+    font-family: arial;
+    font-weight: lighter;
+    color: #4f4c43;
+}
+
+#status-content {
+   height: 435px;
+   padding-left: 50px;
+
+}
+#empty-cart-status{
+
+    padding-left: 65px;
+    font-family: arial;
+    font-weight: bold;
+    color: #8f8b8b;
+}
+
+.lbl{
+    font-family: arial;
+    font-weight: bold;
+    color: #8f8b8b;
+}
+
+#save{
+    width: 120px;
+    height: 60px;
+    font-size: 15px;
+    color: white;
+    background-color: #3c5699;
+    border-radius: 10px;
+}
+#status-h3{
+    color: #1ec963;
+    padding-left: 65px;
+    font-family: arial;
+    font-weight: lighter;
+}
+#status-content{
+    height:487px;
+}
+
+ table {
+    width: 80%;
+    display: inline-table;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+th,td {
+    padding: 6px;
+} 
+
+.left-align{
+    text-align: left;
+    width: 200px;
+}
+.right-align{
+    text-align: right;
+}
+.cent-align{
+    text-align: center;
+}

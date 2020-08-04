@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Edit Menu Item List</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src=""></script>
+</head>
+
+<body>
+    <header>
+        <span id="title" class="nav-menu">tru Yum</span>&nbsp;&nbsp;
+        <img src="images/fork-and-spoon-light.png" alt="spoon and fork">
+        <nav>
+            <a href="menu-item-list-admin.html" class="nav-menu">Menu</a>
+        </nav>
+    </header>
+    <h1>Edit Menu Item</h1>
+    <div id="content"><br><br>
+        <form action="edit-menu-item-status.html" onsubmit="return validate()">
+                <div>
+                    <label class="lbl" for="name">Name</label><br>
+                    <input type="text" id="name" name="title" style="width:66.5%;" required><br><br><br>
+
+                    <label class="lbl" for="price">Price (Rs.)</label>
+                    <label class="lbl" for="active" style="padding-left: 160px;">Active</label>
+                    <label class="lbl" for="dateOfLaunch" style="padding-left: 160px;" >Date of Launch</label>
+                    <label class="lbl" for="category" style="padding-left: 160px;" >Category</label>
+                    <br>
+
+                    <input type="number" id="name" name="price" required>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;
+                    <input type="radio" id="active" name="active" checked><label>Yes</label>&nbsp;&nbsp;
+                    <input type="radio" id="active" name="active"><label>No</label>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <input type="date" id="dateOfLaunch" name="dateOfLaunch" style="width:150px;">
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+                    <select name="category" id="category" style="width: 150px;">
+                            <option selected>Choose</option>
+                            <option value="Starters">Starters</option>
+                            <option value="Main Course">Main Course</option>
+                            <option value="Dessert">Dessert</option>
+                            <option value="Drinks">Drinks</option>
+                    </select>
+                    <br><br><br>
+                    <input type="checkbox" id="freeDelivery" name="freeDelivery">
+                    <label class="lbl" for="gridCheck">Free Delivery</label>
+                    <br><br><br><br>
+                    <button type="submit" id="save" name="save">Save</button>
+                                    
+                                    
+                    
+
+                        
+                    
+                </div>
+            </form>
+            
+    </div>
+    <footer>
+        Copyright @ 2019
+    </footer>
+</body>
+
+</html>
